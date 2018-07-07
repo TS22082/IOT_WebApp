@@ -1,0 +1,39 @@
+form {
+  display: grid;
+  grid-template-columns: 10% 1fr 10%;
+  grid-template-rows: 2fr 1fr 1fr 1fr;
+  grid-template-areas: 
+  ". . ."
+  ". e ."
+  ". p ."
+  ". l .";
+}
+#email {
+  grid-area: e;
+  font-size: 1.25em;
+  text-align: center;
+  background-color: #c9c9c9;
+  border-color: #f39c12;
+  border-style: solid;
+  border-bottom-style: none;
+  height: 2.25em;
+}
+
+#password {
+  grid-area: p;
+  font-size: 1.25em;
+  text-align: center;
+  background-color: #c9c9c9;
+  border-style: solid;
+  border-bottom-style: none;
+  border-color: #f39c12;
+}
+
+#login {
+  grid-area: l;
+  font-size: 1.25em;
+  border-color: #f39c12;
+  border-style: solid;
+  background-color: #f39c12;
+  color: white;
+}

@@ -1,0 +1,13 @@
+.container {
+  background-color: #e84118;
+  height: 4em;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: 
+  "."
+  "c"
+  "."
+}
+p {
+  grid-area: c;
+}
